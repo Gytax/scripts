@@ -1,1 +1,1 @@
-pwsh -executionpolicy bypass -File "%UserProfile%\OneDrive\Documents\scripts\reset-gpu.ps1"
+pwsh -executionpolicy bypass -File "%UserProfile%\Documents\scripts\reset-gpu.ps1"
