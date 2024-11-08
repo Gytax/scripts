@@ -29,6 +29,8 @@ then
   echo "Creating..."
   printf '#\!/bin/sh\noriginal_ffmpeg -hwaccel vaapi "$@"\n' > /usr/local/bin/lffmpeg
   chmod +x /usr/local/bin/lffmpeg
+else
+  echo "/usr/local/bin/lffmpeg already exists, using that..."
 fi
 
 if [ -e /usr/local/bin/lffmpeg ]
